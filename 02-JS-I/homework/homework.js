@@ -165,9 +165,9 @@ function esPositivo(numero) {
   if (numero === 0){
     return false
   }else if(numero < 0){
-    return "Es Negativo";
+    return "Es negativo";
   } else {
-    return "Es Psoitivo";
+    return "Es positivo";
   }
 }
 
@@ -182,7 +182,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinados = nombre + '' + apellido;
+  var combinados = nombre + ' ' + apellido;
   return combinados;
 }
 
